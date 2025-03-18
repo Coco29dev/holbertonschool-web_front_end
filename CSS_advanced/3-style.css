@@ -8,6 +8,11 @@
     --text-color: var(--color-black);
 }
 
+/* Configure le comportement de défilement fluide */
+html {
+    scroll-behavior: smooth;
+}
+
 /* Style du corps de la page utilisant la variable de couleur de texte */
 body {
     color: var(--text-color);
@@ -31,9 +36,4 @@ a {
 /* Applique la couleur primaire aux éléments avec la classe section-tagline */
 .section-tagline {
     color: var(--color-primary);
-}
-
-/* Configure le comportement de défilement fluide */
-html {
-    scroll-behavior: smooth;
 }
