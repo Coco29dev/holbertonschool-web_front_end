@@ -1,3 +1,4 @@
+/* Définition des variables CSS au niveau de la racine du document */
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
