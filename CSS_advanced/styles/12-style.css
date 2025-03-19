@@ -61,6 +61,7 @@ a {
     text-transform: var(--section-tagline-transform)
 }
 
+/* Applique la couleur noir au titre */
 .section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
