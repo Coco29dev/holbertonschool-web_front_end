@@ -1,0 +1,16 @@
+/*  double variable */
+$myColor: #3D3D3D;
+$myBackgroundColor: #6D6D6D;
+
+body {
+    color: $myColor;
+    background-color: $myBackgroundColor;
+}
+
+p {
+    color: $myColor;
+}
+
+h2 {
+    background-color: $myBackgroundColor;
+}
