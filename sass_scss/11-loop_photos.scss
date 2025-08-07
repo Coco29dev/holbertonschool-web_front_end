@@ -1,0 +1,20 @@
+/* for each */
+@use '11-photos' as photos;
+
+@each $list in photos.$list-names {
+    .photo-#{$list} {
+        background: image-url("photos/#{$list}.jpg") no-repeat;
+    }
+
+    .photo-#{$list} {
+        background: image-url("photos/#{$list}.jpg") no-repeat;
+    }
+
+    .photo-#{$list} {
+        background: image-url("photos/#{$list}.jpg") no-repeat;
+    }
+
+    .photo-#{$list} {
+        background: image-url("photos/#{$list}.jpg") no-repeat;
+    }
+}
