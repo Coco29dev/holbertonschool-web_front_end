@@ -1,0 +1,22 @@
+/* list sort string */
+@use '103-sort_list' as lists;
+
+$new_list: (
+);
+$original_list: lists.$list_to_sort;
+
+@each $element in $original_list {
+
+    $inserted: false;
+
+    @if length($new_list)==0 {}
+
+    @else {
+
+        @for $i from 1 through length($new_list) {
+            @if not $inserted {}
+        }
+
+
+    }
+}
