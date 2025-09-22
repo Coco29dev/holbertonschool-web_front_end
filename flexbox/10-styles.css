@@ -530,7 +530,7 @@ ul.row {
 /* Section HERO
       ============================= */
 
-.section-hero .section-body .section-category {
+.section-hero {
     position: relative;
     margin-top: -8.5rem;
 }
